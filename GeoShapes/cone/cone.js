@@ -9,7 +9,7 @@ let v = document.querySelector('#v');
 let s = document.querySelector('#s');
 
 function calc() {
-    v.innerHTML+=((1/3)*pi*h*Math.pow(r, 2))
+    v.innerHTML+=(pi*(h/3)*Math.pow(r, 2))
     s.innerHTML+=(pi*r*(r+l))
     data.style.display='none';
     result.style.display='block';  
