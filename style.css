@@ -4,7 +4,9 @@
 }
 body{
     box-sizing:border-box;
-    background-color:aqua;
+    background-color:#60797d;
+    color: white;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,13 +18,13 @@ center{
 button{
     padding: 10px;
     cursor: pointer;
-    border: none;
-    background-color: yellow;
+    border: solid 1px white;
+    background-color: #8cb8bf;
     border-radius: 5px;
 }
 hr{
     margin-top: 50px;
-    margin-bottom: 15px;;
+    margin-bottom: 15px;
 }
 footer{
     position: fixed;

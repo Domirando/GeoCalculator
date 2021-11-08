@@ -4,14 +4,14 @@
 body{
     box-sizing:border-box;
     padding: 15px;
-    background-color: yellowgreen;
+    background-color:#60797d;
     display: flex;
     flex-direction: column;
 }
 fieldset{
     border-radius: 10px;
-    background-color: pink;
-    border: 1px solid black;
+    /* background-color: pink; */
+    border: 1px solid white;
     padding: 35px 20px;
 }
 legend{
