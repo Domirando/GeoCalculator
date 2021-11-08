@@ -34,6 +34,9 @@ hr{
 #result{
     display: none;
 }
+#data{
+    display: block;
+}
 footer{
     position: fixed;
     Width: 100%;
