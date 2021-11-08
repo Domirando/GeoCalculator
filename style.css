@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing:border-box;
+    background-color:aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+center{
+    align-items: center;
+    justify-items: center;
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: yellow;
+    border-radius: 5px;
+}
+hr{
+    margin-top: 50px;
+    margin-bottom: 15px;;
+}
+footer{
+    position: fixed;
+    Width: 100%;
+    bottom: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+}

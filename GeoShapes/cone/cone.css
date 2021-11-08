@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+body{
+    box-sizing:border-box;
+    padding: 15px;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+}
+fieldset{
+    border-radius: 10px;
+    background-color: pink;
+    border: 1px solid black;
+    padding: 35px 20px;
+}
+legend{
+    color: blue;
+    font-size: 23px;
+}
+input{
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+hr{
+    margin-top: 50px;
+    margin-bottom: 15px;;
+}
+#result{
+    display: none;
+}
+footer{
+    position: fixed;
+    Width: 100%;
+    bottom: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+}

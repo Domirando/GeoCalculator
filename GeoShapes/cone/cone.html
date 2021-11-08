@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cone.css">
+    <title>GoeCalculator Konus</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>GoeCalculator <b> Konus </b></legend>
+            <div id="data">
+                <label for="radius">Radius (R):</label>
+                <input type="text" name="radius" id="radius"><br>
+                <label for="length">Uzunlik (L):</label>
+                <input type="text" name="length" id="length"><br>
+                <label for="height">Balandlik (H):</label>
+                <input type="text" name="height" id="height"><br>
+                <input type="submit" class="btn" onclick="calc()" value="Hisoblash">
+            </div>
+            <div id="result">
+                <h2 id="v">Hajm: </h2>
+                <h2 id="s">Sirt yuza: </h2>
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        <hr>
+        <center>Made with ♥ by Merolinda </center>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
