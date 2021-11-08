@@ -5,11 +5,12 @@
 body{
     box-sizing:border-box;
     background-color:#60797d;
-    color: white;
+    color: #000;
     padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 center{
     align-items: center;
@@ -21,6 +22,27 @@ button{
     border: solid 1px white;
     background-color: #8cb8bf;
     border-radius: 5px;
+}
+.cards{
+    margin-top: 40px;
+    display: flex;
+    column-gap: 30px;
+}
+.card{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 3px;
+}
+.card:hover{
+    transition: .3s;
+    transform: scale(1.15);
+}
+.card>img{
+    width: 50px;
 }
 hr{
     margin-top: 50px;
