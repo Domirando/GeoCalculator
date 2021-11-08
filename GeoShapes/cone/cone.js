@@ -5,14 +5,16 @@ const l = document.querySelector('#length').value
 console.log(l)
 const h = document.querySelector('#height').value
 const data = document.querySelector('#data')
+const calc = document.querySelector('#calc')
 const result = document.querySelector('#result')
 let v = document.querySelector('#v').innerHTML;
 let s = document.querySelector('#s').innerHTML;
+
 v+=(pi*(h/3)*Math.pow(r, 2))
-    s+=(pi*r*(r+l))
-    console.log(v+s)
-function calc() {
+s+=(pi*r*(r+l))
+console.log(v+"; "+s)
     
-    data.style.display='none';
-    result.style.display='block';  
-}
+calc.addEventListener('click', ()=>{
+    data.style.display="none";
+    result.style.display="block";          
+})
