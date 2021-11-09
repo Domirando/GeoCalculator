@@ -39,6 +39,15 @@ hr{
 #result{
     display: none;
 }
+.result_data{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 12px;
+}
+.result_value{
+    font-size: 17px;
+    color: #000;
+}
 #data{
     display: block;
 }
